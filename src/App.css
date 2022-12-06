@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(81, 77, 138);
+  color: white;
+  min-height: 100vh;
+}
