@@ -1,6 +1,11 @@
+import { Monster } from '../../App';
 import './card.styles.css';
 
-function Card({ monster }) {
+type CardProps = {
+  monster: Monster;
+};
+
+function Card({ monster }: CardProps) {
   return (
     <div className="card-container">
       <img
